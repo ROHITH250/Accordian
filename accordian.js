@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
         arrow.classList.toggle("rotate-arrow");
       });
   
-      // Add event listener to the arrow span
+      
       arrow.addEventListener("click", function (event) {
-        event.stopPropagation(); // Prevent accordion box click event from firing
+        event.stopPropagation();
         accordionContent.classList.toggle("show");
         arrow.classList.toggle("rotate-arrow");
       });
